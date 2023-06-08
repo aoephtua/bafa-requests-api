@@ -1,6 +1,6 @@
 # bafa-requests-api
 
-[![npm](https://img.shields.io/npm/v/bafa-requests-api)](https://www.npmjs.com/package/bafa-requests-api)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/aoephtua/bafa-requests-api/blob/master/LICENSE)
 
 Minimalistic web API to get requests of [BAFA Portal](https://fms.portal.bafa.de).
 

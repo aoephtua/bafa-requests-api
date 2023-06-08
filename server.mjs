@@ -6,7 +6,7 @@ import parseArgs from 'minimist';
 import express from 'express';
 
 /**
- * Ouputs message to the console.
+ * Outputs message to the console.
  */
 const log = console.log;
 

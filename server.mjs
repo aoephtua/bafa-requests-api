@@ -57,10 +57,12 @@ server.get('/requests', async (req, res) => {
     const token = query.token || args.token;
     
     if (token) {
-        const { data, status, error } = await getRequests({ token }, options);
+        const { data: result, status, error } = await getRequests({ token }, options);
 
         if (status === 200) {
-            res.json(data);
+            const { count, data } = result;
+
+            res.json({ count, data });
         } else {
             res.status(400).json(error);
         }
